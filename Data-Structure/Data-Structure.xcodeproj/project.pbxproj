@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		967A50D92993DC87001B4157 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967A50D82993DC87001B4157 /* main.swift */; };
 		967A50E32993E450001B4157 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967A50E22993E450001B4157 /* Stack.swift */; };
+		96858C772993E5ED00E1F480 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96858C762993E5ED00E1F480 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		967A50D52993DC87001B4157 /* Data-Structure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data-Structure"; sourceTree = BUILT_PRODUCTS_DIR; };
 		967A50D82993DC87001B4157 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		967A50E22993E450001B4157 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		96858C762993E5ED00E1F480 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		967A50D72993DC87001B4157 /* Data-Structure */ = {
 			isa = PBXGroup;
 			children = (
+				96858C752993E5C300E1F480 /* Queue */,
 				967A50E12993E445001B4157 /* Stack */,
 				967A50D82993DC87001B4157 /* main.swift */,
 			);
@@ -71,6 +74,14 @@
 				967A50E22993E450001B4157 /* Stack.swift */,
 			);
 			path = Stack;
+			sourceTree = "<group>";
+		};
+		96858C752993E5C300E1F480 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				96858C762993E5ED00E1F480 /* Queue.swift */,
+			);
+			path = Queue;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				967A50E32993E450001B4157 /* Stack.swift in Sources */,
+				96858C772993E5ED00E1F480 /* Queue.swift in Sources */,
 				967A50D92993DC87001B4157 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

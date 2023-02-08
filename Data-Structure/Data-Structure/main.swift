@@ -8,11 +8,14 @@
 import Foundation
 
 var stack = Stack<Int>()
+var queue = Queue<Int>()
 
-stack.push(1)
-stack.push(2)
-stack.push(3)
-stack.pop()
-
-print(stack)
+queue.push(1)
+queue.push(2)
+queue.push(3)
+print(queue.pop())
+queue.push(4)
+queue.push(5)
+queue.push(6)
+queue.push(7)
 
