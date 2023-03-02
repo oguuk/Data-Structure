@@ -13,6 +13,7 @@
 		96D9C42029A658AD00089E21 /* treeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C41D29A658AD00089E21 /* treeString.swift */; };
 		96D9C42129A658AD00089E21 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C41E29A658AD00089E21 /* TreeNode.swift */; };
 		96D9C42229A658AD00089E21 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C41F29A658AD00089E21 /* BinaryTree.swift */; };
+		96D9C42529A658F500089E21 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9C42429A658F500089E21 /* Heap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		96D9C41D29A658AD00089E21 /* treeString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = treeString.swift; sourceTree = "<group>"; };
 		96D9C41E29A658AD00089E21 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		96D9C41F29A658AD00089E21 /* BinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		96D9C42429A658F500089E21 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		967A50D72993DC87001B4157 /* Data-Structure */ = {
 			isa = PBXGroup;
 			children = (
+				96D9C42329A658EA00089E21 /* Heap */,
 				96D9C41C29A658AD00089E21 /* Tree */,
 				96858C752993E5C300E1F480 /* Queue */,
 				967A50E12993E445001B4157 /* Stack */,
@@ -99,6 +102,14 @@
 				96D9C41F29A658AD00089E21 /* BinaryTree.swift */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		96D9C42329A658EA00089E21 /* Heap */ = {
+			isa = PBXGroup;
+			children = (
+				96D9C42429A658F500089E21 /* Heap.swift */,
+			);
+			path = Heap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				96D9C42029A658AD00089E21 /* treeString.swift in Sources */,
 				96D9C42129A658AD00089E21 /* TreeNode.swift in Sources */,
 				967A50D92993DC87001B4157 /* main.swift in Sources */,
+				96D9C42529A658F500089E21 /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
