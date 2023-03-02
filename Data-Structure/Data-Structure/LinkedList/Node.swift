@@ -9,11 +9,11 @@ import Foundation
 
 class Node<T: Comparable> {
     
-    let value: T
+    let data: T
     var next: Node?
     
-    init(value: T, next: Node? = nil) {
-        self.value = value
+    init(data: T, next: Node? = nil) {
+        self.data = data
         self.next = next
     }
 }

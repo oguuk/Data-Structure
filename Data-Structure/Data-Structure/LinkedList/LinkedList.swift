@@ -31,8 +31,8 @@ struct LinkedList<T: Comparable> {
         print("===== Linked List ======")
         while now != nil {
             now?.next == nil
-            ? print("value: \(now!.value)")
-            : print("value: \(now!.value) -> ")
+            ? print("data: \(now!.data)")
+            : print("data: \(now!.data) -> ")
             now = now?.next
         }
         print("========================")
@@ -43,7 +43,7 @@ struct LinkedList<T: Comparable> {
         var target: Node<T>?
         
         while node != nil {
-            if node?.value == element {
+            if node?.data == element {
                 target = node
                 break
             }
